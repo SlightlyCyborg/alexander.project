@@ -1,3 +1,8 @@
+(defpackage :project-manager
+  (:use :COMMON-LISP))
+
+(in-package :project-manager)
+
 
 (defclass project ()
   ((name :accessor project-name
